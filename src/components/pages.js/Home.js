@@ -47,9 +47,9 @@ const Home = (props) => {
       {todos &&
         todos.map((todo) => (
           <div key={todo._id}>
-            <h6>{todo.title}</h6>
+            <h6>{todo.blog_title}</h6>
             <h6>
-              {todo.details}{" "}
+              {todo.blog_content}{" "}
 
               {/* {todo.user === props.user._id && ( */}
                 <span

@@ -5,6 +5,9 @@ const About = ()=>{
         <div>
             <NavBar/>
             <h1>About Page</h1>
+            <p> I have really enjoyed my time here at Per Scholas. 
+                The tuition was really affordable and I met a few
+                really skilled individuals</p>
         </div>
     )
     

@@ -9,7 +9,7 @@ const Landing = (props)=>{
 
 return(
     <div>
-        <h1>Landing Page</h1>
+        <h1>for Finance and Stocks</h1>
         { hasAccount === false ? (
             <div>
                <Giphy/>

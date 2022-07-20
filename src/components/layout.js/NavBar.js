@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const NavBar = (props) => {
   return (
-    <nav >
+    <nav>
       <ul className="nav">
 
         <li className="nav-item">
@@ -16,6 +16,11 @@ const NavBar = (props) => {
         <li className="nav-item">
             <NavLink to='/' className="nav-link">Landing</NavLink>
         </li>  
+
+        <li className="nav-item">
+            <NavLink to='/' className="nav-link">Stock Tips</NavLink>
+        </li>  
+
       { props.user && <span>{props.user.username}</span>}
       </ul>
     </nav>
